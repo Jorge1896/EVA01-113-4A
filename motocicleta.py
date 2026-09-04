@@ -11,7 +11,17 @@ class Motocicleta(Vehiculo):
         self.tipo = tipo
 
     def encenderMotor(self):
-        print("La motocicleta está encendida.")
+        print(f"Encendiendo el motor de la motocicleta ({self.tipo}) con patente {self.patente}...")
 
     def esDeAltaCilindrada(self):
-        pass
+           
+            return self.cilindrada >= 600
+    
+
+    
+    
+   
+
+   
+
+   

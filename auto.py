@@ -11,8 +11,10 @@ class Auto(Vehiculo):
         self.numPuertas = numPuertas
         self.combustible = combustible
 
+
     def abrirMaletero(self):
-        print("El maletero está abierto.")
+        print(f"Abriendo el maletero del auto patente {self.patente}...")
 
     def tieneAireAcondicionado(self):
+
         return True

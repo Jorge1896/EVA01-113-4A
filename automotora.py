@@ -8,8 +8,8 @@ class Automotora:
         self.vehiculos.append(vehiculo)
 
     def mostrarVehiculos(self):
-        print("Automotora:", self.nombre)
-        print("Vehículos registrados:")
+        print(f"Automotora: {self.nombre}")
+        print(f"Vehículos registrados: {len(self.vehiculos)}")
 
         for vehiculo in self.vehiculos:
             vehiculo.mostrarInfo()
